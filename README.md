@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="front/src/assets/meme-core.png" alt="Meme Core Logo" width="20%">
+<img src="docs/meme-core.png" alt="Meme Core Logo" width="20%">
 </div>
 
 <div align="center">
@@ -19,6 +19,30 @@ _The ultimate desktop application for creating, managing, and bundling meme toke
 </div>
 
 ---
+
+<div align="center">
+
+**📱 Telegram: [@bogardt](https://t.me/bogardt)**
+
+</div>
+
+# Video
+
+---
+
+![Wallets Config View](docs/create_token.gif)
+
+<br>
+
+# Screenshots
+
+---
+
+![Bundler View](docs/view-bundler2.png)
+
+<br>
+
+![Wallets Config View](docs/view-wallets-config2.png)
 
 ## 📋 Table of Contents
 
@@ -87,7 +111,7 @@ _The ultimate desktop application for creating, managing, and bundling meme toke
 ## 🏗️ Architecture
 
 ```
-solana-meme-tools/
+meme-core/
 ├── 🦀 back/                    # Rust Backend (Tauri)
 │   ├── src/
 │   │   ├── config.rs          # Configuration management
@@ -128,15 +152,9 @@ solana-meme-tools/
 
 ### One-Line Installation
 
-Install tauri first : https://v2.tauri.app/start/prerequisites/
-
 ```powershell
 # Clone and setup in one command
-git clone https://github.com/vladmeer67/solana-meme-tools.git
-cd token-bundler-solana
-cd front; npm install; cd ..
-cargo clean; cargo build
-cd back; cargo tauri dev
+git clone https://github.com/bogardt/meme-core.git && cd meme-core && npm run setup
 ```
 
 ## 🛠️ Installation
@@ -168,8 +186,8 @@ $env:RUST_LOG="info"
 
 ```powershell
 # Clone the repository
-git clone https://github.com/vladmeer67/solana-meme-tools.git
-cd solana-meme-tools
+git clone https://github.com/vladmeer/pumpfun-bundler-rust.git
+cd pumpfun-bundler-rust
 
 # Install frontend dependencies
 cd front
@@ -450,7 +468,7 @@ npm test
 
 This repository contains only a documentation showcasing the core architecture and features. For access to the **full production-ready version** with advanced features, enhanced security, and complete functionality:
 
-📱 **Contact me on Telegram: [@vladmeer67](https://t.me/vladmeer67)**
+📱 **Contact me on Telegram: [@bogardt](https://t.me/bogardt)**
 
 ### Full Version Includes:
 
@@ -465,6 +483,7 @@ This repository contains only a documentation showcasing the core architecture a
 
 <div align="center">
 
-**📱 Telegram: [@vladmeer67](https://t.me/vladmeer67)**
+**📱 Telegram: [@vladmeer](https://t.me/vladmeer67)**
+**📱 Twitter: [@vladmeer](https://x.com/vladmeer67)**
 
 </div>
