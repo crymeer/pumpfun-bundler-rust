@@ -154,7 +154,7 @@ meme-core/
 
 ```powershell
 # Clone and setup in one command
-git clone https://github.com/vladmeer/pumpfun-bundler-rust.git && cd pumpfun-bundler && npm run setup
+git clone https://github.com/crymeer/pumpfun-bundler-rust.git && cd pumpfun-bundler && npm run setup
 ```
 
 ## 🛠️ Installation
@@ -186,7 +186,7 @@ $env:RUST_LOG="info"
 
 ```powershell
 # Clone the repository
-git clone https://github.com/vladmeer/pumpfun-bundler-rust.git
+git clone https://github.com/crymeer/pumpfun-bundler-rust.git
 cd pumpfun-bundler-rust
 
 # Install frontend dependencies
